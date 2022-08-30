@@ -10,7 +10,7 @@ public class LIne {
         double y1 = scan.nextInt();
 
         double z = ((x - x1) * (x - x1)) + ((y - y1) * (y - y1));
-        double z1 = (double) Math.sqrt(z);
+        double z1 = () Math.sqrt(z);
         System.out.println(z1);
     }
 }
